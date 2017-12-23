@@ -1,0 +1,29 @@
+{
+    "multipart": [
+		{   "apply": { "model": "cultivation:gardening_box/soil" }},
+		{   "when": { "north": "true" },
+            "apply": { "model": "cultivation:gardening_box/soil_side", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "cultivation:gardening_box/soil_side", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "cultivation:gardening_box/soil_side", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "cultivation:gardening_box/soil_side", "y": 270, "uvlock": true }
+        },
+		 {   "when": { "AND": [{"north_left": "true"}, {"west": "true"}, {"north": "true"}] },
+            "apply": { "model": "cultivation:gardening_box/soil_edge", "uvlock": true }
+        },
+		 {   "when": { "AND": [{"north_right": "true"}, {"east": "true"}, {"north": "true"}] },
+            "apply": { "model": "cultivation:gardening_box/soil_edge", "y": 90, "uvlock": true }
+        },
+		 {   "when": { "AND": [{"south_left": "true"}, {"west": "true"}, {"south": "true"}] },
+            "apply": { "model": "cultivation:gardening_box/soil_edge", "y": 270, "uvlock": true }
+        },
+		 {   "when": { "AND": [{"south_right": "true"}, {"east": "true"}, {"south": "true"}] },
+            "apply": { "model": "cultivation:gardening_box/soil_edge", "y": 180, "uvlock": true }
+        }
+    ]
+}

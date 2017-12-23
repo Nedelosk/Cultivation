@@ -1,0 +1,14 @@
+{
+	"textures": {
+		"soil": "blocks/dirt_podzol_top"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 2, 12, 2 ],
+			"to": [ 14, 12.001, 14 ],
+			"faces": {
+				"up": { "uv": [ 2, 2, 14, 14 ], "texture": "#soil" }
+			}
+		}
+	]
+}

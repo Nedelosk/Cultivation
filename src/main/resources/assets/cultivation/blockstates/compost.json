@@ -1,0 +1,34 @@
+{
+	"forge_marker": 1,
+    "defaults": {
+        "model": "cultivation:compost",
+        "uvlock": true
+    },
+    "variants": {
+        "level": {
+		    0: {
+            },
+            1: {
+				"submodel": "cultivation:compost_0"
+            },
+			2: {
+				"submodel": "cultivation:compost_1"
+            },
+			3: {
+				"submodel": "cultivation:compost_2"
+            },
+			4: {
+				"submodel": "cultivation:compost_3"
+            },
+			5: {
+				"submodel": "cultivation:compost_4"
+            },
+			6: {
+				"submodel": "cultivation:compost_5"
+            },
+			7: {
+				"submodel": "cultivation:compost_6"
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"textures": {
+		"soil": "blocks/farmland_wet"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 1, 15, 1 ],
+			"to": [ 15, 15.001, 15 ],
+			"faces": {
+				"up": { "uv": [ 1, 1, 15, 15 ], "texture": "#soil" }
+			}
+		}
+	]
+}

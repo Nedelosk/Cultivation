@@ -1,0 +1,45 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+	    "textures": {
+			"particle": "blocks/planks_oak",
+			"plank": "blocks/planks_birch"
+		},
+        "model": "cultivation:raised_bed/default",
+        "uvlock": true
+    },
+    "variants": {
+        "facing": {
+            "east": {
+                "y": 90
+            },
+           "north": {
+            },
+			"south": {
+                "y": 180
+            },
+			"west": {
+                "y": 270
+            }
+        },
+        "position": {
+            "center": {
+				"model": "cultivation:raised_bed/center"
+            },
+            "edge": {
+				"model": "cultivation:raised_bed/edge"
+            },
+			"line": {
+				"model": "cultivation:raised_bed/line"
+            },
+			"single": {
+				"model": "cultivation:raised_bed/single"
+            },
+			"default": {
+            },  
+			"crossing": {
+				"model": "cultivation:raised_bed/crossing"
+            }
+        }
+    }
+}
